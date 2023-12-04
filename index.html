@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URS Taytay</title>
+    <link rel="icon" href="pictures/university-seal.png">
+    <!--link for icons/font awesome-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!--link for google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    </link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <!--link for the Bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--link for the css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Navigation Bar Start-->
+    <div class="navbar">
+        <nav>
+            <div class="logo">
+                <img src="pictures/university-seal.png">
+                <img src="pictures/urs-vector.png">
+                <div class="title">
+                    <h1 id="title-blue">URS</h1>
+                    <h1>Taytay</h1>
+                </div>
+            </div>
+            <ul class="menu">
+                <li class="hideonmoblie"><a href="#home">Home</a></li>
+                <li class="hideonmoblie"><a href="#about-us">About Us</a></li>
+                <li class="hideonmoblie"><a href="#gallery">Gallery</a></li>
+                <li class="hideonmoblie"><a href="#history">History</a></li>
+                <li class="hideonmoblie"><a href="#newsupdates">News & Updates</a></li>
+                <li class="hideonmoblie"><a href="#Contact">Contact Us</a></li>
+                <li class="navbtn" onclick=Showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                            viewBox="0 -960 960 960" width="26">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+            <ul class="sidebar">
+                <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                            viewBox="0 -960 960 960" width="24">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#newsupdates">News & Updates</a></li>
+                <li><a href="#Contact">Contact Us</a></li>
+
+
+            </ul>
+        </nav>
+    </div>
+    <!--Navigation Bar End-->
+
+    <!--Homepage Start-->
+    <div id="home">
+        <div class="intro">
+            <h1 class="blue-intro">UNIVERSITY <span>OF RIZAL SYSTEM</span></h1>
+            <h2 class="sub-intro">Nurturing Tomorrow's <span>Noblest</span></h2>
+        </div>
+    </div>
+    <!--Homepage End-->
+
+    <!--About Us-->
+    <div id="about-us">
+        <div class="about-us-container">
+            <div>
+                <p class="about">About Us</p>
+            </div>
+            <div class="mini-nav">
+                <a data-id="1">Learn More</a>
+                <a data-id="2">Courses</a>
+            </div>
+            <main>
+                <div class="about-content-clicked">
+                    <p>The University of Rizal System (URS) as an organized academic entity composed of separate but
+                        interrelated units coordinates and integrates system-wide functions and activities. It has the
+                        prime
+                        mandate of providing instruction, research, extension and production to the public.<br><br>
+                        With the Board of Regents as the highest governing board, the University is also led by its
+                        president, Dr. Nancy Talavera Pascual. With her, are three vice-presidents – Dr. Renato F. De
+                        Lemon,
+                        Vice-president for Administration and Finance; Dr. Allan E. Conde, Vice-president for Academic
+                        Affairs; and, Dr. Marites M. Rio, Vice-president for Research Development, Extension and
+                        Production.
+                        The University is also managed by campus directors, unit heads, deans and program heads.<br><br>
+                        The President is the chief executive officer, university leader and spokesperson. She performs
+                        her
+                        administrative and leadership work and participates in related activities such as instruction,
+                        extension, production and research overseeing all university operations, including programs and
+                        policy directions.
+                    </p>
+                    <img src="pictures/homepage-3.jpg" class="about-img">
+                </div>
+                <div>
+                    <h1 class="courses">Bachelor of Elementary Education Major in Content Courses<br><br>
+                        Bachelor of Secondary Education<br>Major in:
+                        English<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology
+                        and Livelihood Education<br><br>
+                        Bachelor of Technology and Livelihood Education<br>Major in: Information and Communications
+                        Technology<br><br>Bachelor of Science Information Technology<br><br>Bachelor of Science in
+                        Nursing
+                        <br><br>Diploma in Science in Psychology
+                    </h1>
+                </div>
+            </main>
+
+            <h1 class="policies-title">Vision, Mission and Core Values</h1>
+            <div class="urs-policies">
+                <div class="policy-div">
+                    <div class="policy-container">
+                        <h1 class="vision-title">URS VISION</h1>
+                        <h1 class="vision-content">The leading University in human resource development, knowledge and
+                            technology generation and environmental stewardship</h1>
+                    </div>
+                    <div class="policy-container">
+                        <h1 class="vision-title">URS MISSION</h1>
+                        <h1 class="vision-content">The University of Rizal System is committed to nurture and produce
+                            upright and competent graduates and empowered community through relevant and sustainable
+                            higher professional and technical instruction, research, extension and production services.
+                        </h1>
+                    </div>
+                    <div class="policy-container">
+                        <h1 class="vision-title">URS CORE VALUES</h1>
+                        <h1 class="vision-content">R - Responsiveness<br>I - Integrity<br>S - Service<br>E -
+                            Excellence<br>S - Social Responsibility</h1>
+                    </div>
+                </div>
+
+                <div class="gov-container">
+                    <h1 class="gov-title">Government Websites</h1>
+                    <div class="gov-img">
+                        <img src="pictures/OfficeofthePresident.png">
+                        <img src="pictures/vp.png">
+                        <img src="pictures/senate.png">
+                        <img src="pictures/supremecourt.png">
+                        <img src="pictures/ched.png">
+                        <img src="pictures/coa.png">
+                        <img src="pictures/dbm.png">
+                        <img src="pictures/neda.png">
+                        <img src="pictures/tesda.png">
+                        <img src="pictures/congress.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About Us End-->
+
+    <!--Gallery Start-->
+    <div id="gallery">
+        <h1 class="ursb">Gallery</h1>
+        <div class="slider-container">
+            <div class="slides">
+                <div class="slide"><img src="pictures/1.jpg" alt="Image 1"></div>
+                <div class="slide"><img src="pictures/12351.jpg" alt="Image 2"></div>
+                <div class="slide"><img src="pictures/4.jpg" alt="Image 3"></div>
+                <div class="slide"><img src="pictures/5.jpg" alt="Image 4"></div>
+                <div class="slide"><img src="pictures/7.jpg" alt="Image 5"></div>
+                <div class="slide"><img src="pictures/9.jpg" alt="Image 6"></div>
+                <div class="slide"><img src="pictures/3.jpg" alt="Image 7"></div>
+                <!-- Add more slides as needed -->
+            </div>
+
+            <div class="slider-control">
+                <div class="slider-btn prev" onclick="prevSlide()">❮</div>
+                <div class="slider-btn next" onclick="nextSlide()">❯</div>
+            </div>
+        </div>
+    </div>
+    <!--Gallery End-->
+
+    <!--History Start-->
+    <div id="history">
+        <div class="history-container">
+            <div>
+                <div>
+                    <h1 class="urst">URST HISTORY</h1>
+                </div>
+                <h2 class="content">&nbsp;&nbsp;The University of Rizal System Taytay Campus was
+                    established in 2005 and first resided at Rosario
+                    Ocampo Elementary School. The first offered
+                    courses were Civil Technology, Bachelor of
+                    Secondary Education major in English and General
+                    Education, Bachelor of Science in Entrepreneurial
+                    Management, Call Center Training Program, Two
+                    year Civil Technology, and Two-year Garments
+                    Technology. During the first batch of students,
+                    there were six pioneer instructors who guided and
+                    mentored them.<br>
+                    In 2007, URS Taytay was transferred to its new
+                    building at the Rizal Technopark and offered the
+                    two-year course practical nursing program. In the
+                    same year, the campus had its first Campus Dean
+                    in the person of Prof. Grenelita D.C. Bilbao, and its
+                    first chancellor, Dr. Reneecilia B. Paz De Leon.
+                    In 2013, the campus offered BSE English, BEED,
+                    BS Psychology, and BS Information Technology
+                    due to public demand.<br>
+                    Today, URS Taytay has emerged as the leading
+                    provider of health care with Nursing as its flagship
+                    program. The URS Taytay community continuously
+                    commits to deliver excellent and quality services
+                    in order to meet the demands of the globally
+                    competitive world. </h2>
+            </div>
+            <div class="history-pic">
+                <img src="pictures/history.png" alt="history-pic">
+            </div>
+        </div>
+    </div>
+    <!--History End-->
+
+    <!--News & Update Start-->
+    <div id="newsupdates">
+        <h1 class="news-title">NEWS & UPDATES</h1>
+        <div class="car">
+
+            <div id="slider">
+                <div id="line">
+
+                </div>
+
+                <ul id="move">
+                    <li><img src="pictures/news1.jpg"></li>
+
+                    <li><img src="pictures/news2.jpg"></li>
+
+                    <li><img src="pictures/news3.jpg"></li>
+
+                </ul>
+                <div id="back">
+                </div>
+                <div id="forword">
+                    >
+                </div>
+                <div id="dots">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-news-container">
+            <h1 class="news-intro">NEWS</h1>
+            <div class="news-flex">
+                <img src="pictures/news4.png">
+                <div class="news-flex-inner">
+                    <h1 class="n-title">National Research, Extension Confab Nears<br><span>October 31, 2023</span></h1>
+                    <h1 class="n-content">
+                        The University of Rizal System is set to hold the National Research and Extension Advocacy
+                        Conference for Change (NREACH) with the theme “Redesigning Opportunities in Advancing Research
+                        and …</h1>
+                </div>
+            </div>
+
+            <div class="news-flex">
+                <img src="pictures/news5.png" class="news2">
+                <div class="news-flex-inner">
+                    <h1 class="n-title">URS-YSP NBEIRDD Conducted<br><span>October 31, 2023</span></h1>
+                    <h1 class="n-content">
+                        The University of Rizal System and the International Association of Youth and Students for Peace
+                        (IAYSP) organized a three-day event called “Nature’s Breath, Education, and Innovative …</h1>
+                </div>
+            </div>
+
+            <div class="news-flex">
+                <img src="pictures/news6.png" class="news3">
+                <div class="news-flex-inner">
+                    <h1 class="n-title">8 Qualifies as FY 2023 PSA Scholars<br><span>October 31, 2023</span></h1>
+                    <h1 class="n-content">
+                        Eight URS students – 6 from Binangonan, and 2 from Morong campuses – qualified for this year’s
+                        Panasonic Scholarship Asia grants. The Panasonic Scholarship Asia is a scholarship program that
+                        …</h1>
+                </div>
+            </div>
+
+            <h1 class="news-intro1">ANNOUNCEMENTS</h1>
+            <div class="announce-flex">
+                <div class="announce-row">
+                    <img src="pictures/university-seal.png" class="seal">
+                    <h1 class="a-title">WE ARE HIRING! | 96 Vacant Instructor 1 Plantilla Positions</h1>
+                    <h1 class="a-content">This is to announce the opening of ninety-six (96) vacant Instructor I
+                        plantilla positions (SG 12) of the University. Relative thereto, all interested and
+                        qualified applicants are encouraged to ...</h1>
+                </div>
+                <div class="announce-row">
+                    <img src="pictures/university-seal.png" class="seal">
+                    <h1 class="a-title">WE ARE HIRING! | Republication of Twenty Three (23) Non-Teaching Positions
+                    </h1>
+                    <h1 class="a-content">The University of Rizal System – Human Resource Management Office invites
+                        interested and qualified applicants for the 23 Non-teaching Positions. IMPORTANT NOTE:
+                        Interested and qualified applicants ...</h1>
+                </div>
+                <div class="announce-row">
+                    <img src="pictures/university-seal.png" class="seal">
+                    <h1 class="a-title">WE ARE HIRING! | 11 Non-teaching Positions (Batch 5)</h1>
+                    <h1 class="a-content">The University of Rizal System – Human Resource Management Office invites
+                        interested and qualified applicants for the 11 Non-teaching Positions. IMPORTANT NOTE:
+                        Interested and qualified ...</h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--News & Update End-->
+
+    <!--Contact Start-->
+    <div id="Contact">
+
+        <div class="contactContainer">
+            <h1 class="ursb2">Contact Us</h1>
+            <form>
+                <input type="text" name="first_name" placeholder="NAME" required>
+                <input type="email" name="email" placeholder="EMAIL" required>
+                <textarea name="comments" placeholder="LEAVE YOUR MESSAGE" required></textarea>
+
+                <button name="send" type="submit" class="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Confirm
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"> Success!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Message Sent Successfully!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thank
+                                    you</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        </section>
+    </div>
+    <!--Contact End-->
+
+    <!--Footer Start-->
+    <footer>
+        <div class="footer-col">
+            <h4>Nurturing Tomorrow's Noblest</h4>
+            <ul>
+                <li><a href="#">All content is in the public domain unless
+                        otherwise stated.</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Contact us</h4>
+            <ul>
+                <li><a href="#">A. Luna St. Highway 2000 Brgy. San Juan Taytay Rizal</a></li>
+                <li><a href="#">University of Rizal System - Taytay Campus</a></li>
+                <li><a href="#">dir.taytay@urs.edu.ph</a></li>
+                <li><a href="#">664-6393</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Learn More</h4>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#galley">gallery</a></li>
+                <li><a href="#about-us">about</a></li>
+                <li><a href="#gallery">history</a></li>
+                <li><a href="#newsupdates">news and update</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/OfficeOfTheRegistrarURSTaytay"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!--Footer End-->
+</body>
+<script src="js/script.js"></script>
+
+</html>
